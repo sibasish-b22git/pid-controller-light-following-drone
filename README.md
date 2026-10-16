@@ -22,7 +22,6 @@ A vision-guided indoor drone controller. A Raspberry Pi reads a downward-facing 
 | File | Description |
 | --- | --- |
 | [`light_following_pid.py`](light_following_pid.py) | PID-based line follower (current version) |
-| [`light_following_march_19.py`](light_following_march_19.py) | Original threshold-based version, kept for reference |
 
 ## Getting started
 
@@ -103,14 +102,5 @@ Suggested approach:
 - Check the comments in [`light_following_pid.py`](light_following_pid.py) for what each setting does.
 - ArduPilot guided-mode and MAVLink behaviour: [ardupilot.org/copter](https://ardupilot.org/copter/)
 - DroneKit usage: [dronekit-python docs](https://dronekit-python.readthedocs.io/)
-- For bugs or questions about this project, open an issue in the repository.
 
-## Maintainers and contributing
 
-Maintained by *[your name / team]*.
-
-Contributions are welcome: open an issue to discuss a change, then submit a pull request. Please include what you tested (SITL or real flight) and your PID settings if the change affects tuning.
-
-## License
-
-*[Add a license and reference its `LICENSE` file here.]*
